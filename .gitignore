@@ -1,0 +1,100 @@
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environnements virtuels
+venv/
+env/
+ENV/
+venv.bak/
+env.bak/
+
+# Fichiers de configuration spécifiques
+config/settings.db
+config/key.key
+
+# Logs
+*.log
+
+# Clés ou certificats sensibles
+*.pem
+*.key
+
+# Fichiers de cache
+.cache/
+.mypy_cache/
+.pytest_cache/
+coverage_html_report/
+htmlcov/
+.tox/
+.nox/
+
+# Répertoires de distribution
+build/
+dist/
+wheelhouse/
+*.egg-info/
+.eggs/
+
+# Fichiers générés par l'éditeur
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Fichiers de documentation générés
+docs/_build/
+
+# Fichiers de test
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Fichiers de système d'exploitation
+.DS_Store
+Thumbs.db
+
+# Fichiers de logs de pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Fichiers de Spyder
+.spyderproject
+.spyproject
+
+# Fichiers de Rope
+.ropeproject
+
+# Fichiers de Jupyter Notebook
+.ipynb_checkpoints
+
+# Fichiers de pyenv
+.python-version
+
+# Fichiers de Cython
+*.c
+*.so
+
+# Fichiers de suppression
+*.swp
+*~
+
+# Fichiers de base de données SQLite de test
+*.sqlite3
+
+# Fichiers spécifiques à PyInstaller
+*.spec
+
+# Fichiers de configuration personnels
+config.ini
+settings.ini
+
+# Clés d'authentification
+auth_token.txt
+
+# Autres fichiers sensibles ou temporaires
+*.bak
+*.tmp
